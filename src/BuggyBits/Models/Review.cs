@@ -35,7 +35,8 @@ namespace BuggyBits.Models
 
         ~Review()
         {
-            if (Quote.ToString() != string.Empty) Quote = null;
+            if (Quote.ToString() != string.Empty)
+                Quote = null;
         }
 
         public void Clear()
